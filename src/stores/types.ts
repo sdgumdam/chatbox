@@ -84,3 +84,6 @@ export interface SponsorAboutBanner {
     title: string
     description: string
 }
+
+
+export type FileInputRef = React.RefObject<HTMLInputElement>;
